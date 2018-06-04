@@ -51,8 +51,11 @@
 			templatePrimaryDir="./template">
 			<entityConfig 
 				destdir="${javaDestDir}"
+				listenerSuperclassName="${commonListenerClassName}"
+				superclassName="${commonListenerClassName}"
 				packageName="${entityPackageName}" />
 			<daoConfig 
+				configClassName="${configClassName}"
 				destdir="${javaDestDir}" 
 				packageName="${daoPackageName}" />
 			<sqlConfig 
