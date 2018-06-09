@@ -13,8 +13,8 @@
 	<property name="dialectName" value="mysql" />
 	<!-- DB setting -->
 	<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-	<property name="url" value="jdbc:mysql://localhost:3306/sample_db" />
-	<property name="user" value="test_user" />
+	<property name="url" value="jdbc:mysql://localhost:3306/doma_gen_db" />
+	<property name="user" value="doma_gen_user" />
 	<property name="password" value="hogehoge" />
 	<!-- package -->
 	<property name="entityPackageName" value="com.zac.domagen.db.entity" />
