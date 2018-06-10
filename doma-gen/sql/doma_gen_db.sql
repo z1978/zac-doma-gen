@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `test_tbl` (
   `item_real` double NOT NULL,
   `item_bit` bit(10) NOT NULL,
   `item_boolean` tinyint(1) NOT NULL,
-`item_serial` bigint(20) unsigned NOT NULL,
+  `item_serial` bigint(20) unsigned NOT NULL,
   `item_datetime` datetime NOT NULL,
   `item_timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `item_time` time NOT NULL,
